@@ -1,0 +1,186 @@
+/* &display=swap" */
+@import "null.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto:700;900&display=swap');
+
+.wrapper{
+    overflow: hidden;
+    min-height: 100%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.general {
+    background-color: #29C3BE;
+    margin-top: 80px;
+    position: relative;
+    z-index: 1;
+    flex-wrap: wrap;
+}
+.box{
+    margin: 0 210px 0 210px;
+    
+}
+.impact{
+    display: flex;
+    position: relative;
+    z-index: 2;
+    margin: 0 0 79px 0;
+    gap: 111px;
+}
+.foto-dog__imags{
+    max-width: 527px;
+    max-height: 100%;
+    margin-top: -80px;
+    border-radius: 40px;
+    position: relative;
+    right: -80px;
+    z-index: 3;
+    
+}
+.foto-dog::after{
+    content: "";
+    width: 638.66px;
+    height: 429.83px;
+    background: url('../img/Blob-2.svg') 0 0 no-repeat;
+    position: absolute;
+    z-index: 0;
+    top: 0px;
+    right: -200px;
+
+}
+.title-list{
+    color: #FFFFFF;
+    min-width: 411px;
+}
+.title-list__subtitle{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 2.5px;
+    padding-top: 111px;
+    margin-bottom: 31.77px;
+    position: relative;
+    z-index: 4;
+    
+}
+.title-list__subtitle::before{
+    content: "";
+    background: url('../img/Mark.svg') -7px no-repeat;
+    padding: 16px;
+}
+.title-list__first{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 1.17;
+    position: relative;
+    z-index: 4;
+}
+
+.items__line{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 24px;
+} 
+.line__body{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 11px;
+    
+}
+.body-line__icon{
+    width: 76px;
+    height: 76px;
+}
+
+.body-line__block{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.set__namber{
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1.17;
+    color: #FFFFFF;
+}
+.set__text{
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.15px;
+    color: #5D62B5;
+}
+.topic{
+    margin: 0 auto;
+    padding-top: 30px;
+    background-color: #f5f5f5;
+    position: relative;
+    z-index: 0;
+}
+.topic__unit {
+    margin: 0 210px;
+    position: relative;
+}
+.topic::before{
+    content: "";
+    position: absolute;
+    top: -490px;
+    right: 0;
+    width: 623px;
+    height: 1437px;
+    background: url('../img/Blob-3.svg') 0 0 no-repeat;
+}
+
+.head__title {
+    margin-bottom: 68px;
+} 
+
+.title-services__subtitle {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 2.5px;
+    color: #5D62B5;
+    background: url('../img/Mark-color.svg') -7px no-repeat;
+    padding: 0 0 0 23px;
+    margin: 0 0 33px 0;
+    
+
+}
+.title-services__title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 1.17;
+    color: #000000;
+}
+.unit__room{
+    display: flex;
+    column-gap: 24px;
+}
+.unit__item{
+    flex: 0 1 33.333%;
+    
+}
+.item-room {
+    display: flex;
+    align-items: flex-start;
+}
+
+.item-room__image {
+    flex: 0 0 63px;
+}
+.item-room__body{
+    padding-left: 23px;
+}
+.item-room__title {
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 1.37;
+    color: #F2726F;
+    margin-bottom: 20px;
+}
+.item-room__text{
+    line-height: 1.5;
+    letter-spacing: 0.15px;
+    color: #4B4B4B;
+    
+}
